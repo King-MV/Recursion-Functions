@@ -1,4 +1,4 @@
-// A C program to find factorial of a given number using recursion.
+// A C program to find factorial of a given number (using recursion).
 #include <stdio.h>
 
 // fact() function used to calculate factorial.
