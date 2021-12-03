@@ -3,7 +3,7 @@
 
 // fact() function used to calculate factorial..
 int fact (int n) {
-    // Base condition is used here to stop the iterations.
+    // Base condition is used here to stop the iterations..
     if (n == 0) {
         return 1;
     } 
