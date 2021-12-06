@@ -62,7 +62,7 @@ void cop (int n) {
 	
 } 
 
-// Function used to find factorial of a given number.
+// Function used to find factorial of a given number (using recursion).
 int fact (int n) {
 	if (n == 0 || n == 1) {
 		return n;
