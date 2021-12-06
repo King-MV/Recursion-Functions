@@ -1,6 +1,12 @@
+// A C program to:
+// 1-> Find whether a given number is armstrong or not.
+// 2-> Find factorial of a given number.
+// 3-> Find whether a number & its reverse is Co-prime or not.
+// Also this is Q1 from Ex6(lab manual).
 #include <stdio.h>
 #include <stdlib.h>
 
+// Function used to find whether a given number is armstrong or not.
 void armstrong (int n) {
 	int t , sum = 0 , r;
 	t = n;
@@ -16,6 +22,7 @@ void armstrong (int n) {
 	}
 }
 
+// Function used to calculate reverse of a number.
 int rev(int n) {
 	int rem , rev;
 	while (n > 0) {
@@ -26,6 +33,7 @@ int rev(int n) {
 	return rev;
 }
 
+// Program used to find whether the given number is prime or not.
 int prime (int n) {
 	int r = rev(n);
 	int c = 0 , i;
@@ -42,6 +50,7 @@ int prime (int n) {
 	}
 }
 
+// Function used to find whether a number & its reverse is Co-prime or not.
 void cop (int n) {
 	
 	int re = rev(n);
@@ -53,7 +62,7 @@ void cop (int n) {
 	
 } 
 
-
+// Function used to find factorial of a given number.
 int fact (int n) {
 	if (n == 0 || n == 1) {
 		return n;
@@ -67,10 +76,12 @@ void main () {
 	int n;
 	printf("Enter a number: ");
 	scanf("%d",&n);
-	
+
+// Condition used to repeat the menu again & agin till user doesn't choose to stop.
 while (1)
 {
-		printf("\n\n\t**MENU**\n");
+	// Menu	
+	printf("\n\n\t**MENU**\n");
 	printf("1 to find wheter a number is Armstrong or not\n");
 	printf("2 to find Factorial of a number\n");
 	printf("3 to find wheter the number & its reverse is Co-prime or not\n");
@@ -80,6 +91,7 @@ while (1)
 	printf("\nEnter your choice: ");
 	scanf("%d",&ch);
 	
+	// Switch-cases implemented to provide a menu driven outlook & call functions. 	
 	switch (ch) {
 		case 1: {
 			armstrong(n);
@@ -94,7 +106,8 @@ while (1)
 			break;
 		} 
 		case 4: {
-			exit (0);
+			// Function 'exit(0)' used to stop the menu when user inputs 4. 			
+			exit (0); 			
 			break;
 		}
 		default: printf("Wrong choice");
