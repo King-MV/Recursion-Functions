@@ -52,7 +52,6 @@ int prime (int n) {
 
 // Function used to find whether a number & its reverse is Co-prime or not.
 void cop (int n) {
-	
 	int re = rev(n);
 	if (prime(n) && prime (re)) {
 		printf("\n%d and %d are Co-prime",n,re);
