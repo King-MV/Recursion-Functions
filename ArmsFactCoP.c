@@ -22,7 +22,7 @@ void armstrong (int n) {
 	}
 }
 
-// Function used to calculate reverse of a number.
+// Function used to calculate reverse of a number..
 int rev(int n) {
 	int rem , rev;
 	while (n > 0) {
