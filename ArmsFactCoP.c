@@ -1,4 +1,4 @@
-// A C program to:
+// A C program to:-
 // 1-> Find whether a given number is armstrong or not.
 // 2-> Find factorial of a given number.
 // 3-> Find whether a number & its reverse is Co-prime or not.
