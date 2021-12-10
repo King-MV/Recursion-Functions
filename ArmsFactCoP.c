@@ -2,7 +2,7 @@
 // 1-> Find whether a given number is armstrong or not.
 // 2-> Find factorial of a given number.
 // 3-> Find whether a number & its reverse is Co-prime or not.
-// Also this is Q1 from Ex6(lab manual).
+// Also this is Q1 from Ex6(lab manual)..
 #include <stdio.h>
 #include <stdlib.h>
 
