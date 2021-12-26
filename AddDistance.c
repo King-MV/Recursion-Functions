@@ -26,8 +26,8 @@ void SubDist (struct distance d1 , struct distance d2) {
         Subkm = Subkm - 1;
         Submt = 1000 + Submt;
         printf("Subtraction of both distance is: %d km %d m\n",Subkm,Submt);
-    } else {
-        printf("Can't Calculate");
+    } else if (Subkm < 0) {
+        printf("Can't Calculate\n");
     }
 }
 
